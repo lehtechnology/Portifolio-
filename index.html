@@ -9,46 +9,47 @@
 
   <link rel="stylesheet" href="src/css/font-awesome.css" />
   <link rel="stylesheet" href="src/css/reset.css" />
-  
+
   <link rel="stylesheet" href="src/css/variaveis.css">
 
   <!-- Global -->
   <link rel="stylesheet" href="src/css/globais.css" />
 
+  <!-- Seções -->
   <link rel="stylesheet" href="src/css/header.css">
   <link rel="stylesheet" href="src/css/home.css">
-
   <link rel="stylesheet" href="src/css/sobre.css">
+  <link rel="stylesheet" href="src/css/habilidades.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
 
 <body>
   <header class="header">
-      <div class="container">
-        <div class="row justify-content-between alinhar-itens-no-centro">
-          <a href="#">
-            <h1 class="logo">RD</h1>
-          </a>
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">RD</h1>
+        </a>
 
-          <nav>
-            <input id="menu-hamburguer" type="checkbox" />
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
 
-            <label for="menu-hamburguer">
-              <div class="menu">
-                <span class="hamburguer"></span>
-              </div>
-            </label>
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
 
-            <ul>
-              <li><a href="#sobre-mim">Sobre mim</a></li>
-              <li><a href="#habilidades">Habilidades</a></li>
-              <li><a href="#projetos">Meus projetos</a></li>
-            </ul>
-          </nav>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
 
-        </div>
       </div>
+    </div>
   </header>
 
   <section class="home">
@@ -100,11 +101,13 @@
         </div>
         <div class="informacoes-sobre-mim">
           <p>
-            <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</strong> Blanditiis tenetur, laboriosam repellendus, amet eligendi perferendis possimus, saepe ipsam nihil beatae neque sit! Aliquam tempore, reprehenderit magni quis consectetur quo consequatur!
+            <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</strong> Blanditiis tenetur, laboriosam
+            repellendus, amet eligendi perferendis possimus, saepe ipsam nihil beatae neque sit! Aliquam tempore,
+            reprehenderit magni quis consectetur quo consequatur!
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque quibusdam alias. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque quibusdam alias.
           </p>
 
           <p>
@@ -119,13 +122,68 @@
     </div>
   </section>
 
-  <section class="habilidades">
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-habilidades row">
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-javascript-plain"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod recusandae officiis at nostrum.
+          Non quidem consectetur tenetur expedita nihil, quasi fuga hic blanditiis exercitationem placeat, temporibus
+          cumque a! Beatae.</p>
+      </div>
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-html5-plain-wordmark"></i>
+        </div>
+        <h3>HTML5</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod recusandae officiis at nostrum.
+          Non quidem consectetur tenetur expedita nihil, quasi fuga hic blanditiis exercitationem placeat, temporibus
+          cumque a! Beatae.</p>
+      </div>
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-css3-plain-wordmark"></i>
+        </div>
+        <h3>CSS3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod recusandae officiis at nostrum.
+          Non quidem consectetur tenetur expedita nihil, quasi fuga hic blanditiis exercitationem placeat, temporibus
+          cumque a! Beatae.</p>
+      </div>
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-github-original"></i>
+        </div>
+        <h3>GitHub</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod recusandae officiis at nostrum.
+          Non quidem consectetur tenetur expedita nihil, quasi fuga hic blanditiis exercitationem placeat, temporibus
+          cumque a! Beatae.</p>
+      </div>
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-git-plain"></i>
+        </div>
+        <h3>Git</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod recusandae officiis at nostrum.
+          Non quidem consectetur tenetur expedita nihil, quasi fuga hic blanditiis exercitationem placeat, temporibus
+          cumque a! Beatae.</p>
+      </div>
+    </div>
   </section>
 
   <section class="projetos">
   </section>
 
-  <footer class="footer">   
+  <footer class="footer">
   </footer>
 </body>
 
